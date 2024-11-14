@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    font-family: p;
+}
+body{
+    background-color: rgb(229, 229, 229);
+}
+header{
+    padding-bottom: 20px;
+    filter: drop-shadow(0px 10px 5px rgb(201, 198, 198) );
+    background-color: white;
+    font-size: 60px;
+
+}
+header h1{
+    font-family: instagram;
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header p{
+    text-align: left;
+    font-size: 30px;
+    padding-left: 20px;
+    letter-spacing: -2px;
+}
+header nav{
+    position: absolute;
+    left: 1000px;
+    font-size: 50px;
+    padding-left: 10px;
+
+}
+.user{
+    float:right;
+    width: 70px;
+    height: 70px;
+    border: solid rgb(71, 68, 68) 2px;
+    filter: drop-shadow(2px 2px 5px gray);
+    border-radius: 50%;
+}
+.container{
+    background-color: white;
+    text-align: center;
+    margin-right: 400px;
+    margin-left: 400px;
+    filter: drop-shadow(5px 5px 10px rgb(49, 48, 48));
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.seguir:hover{
+    background-color: black;
+}
+.seguir{
+    float: left;
+    font-family: p;
+    font-size: 30px;
+    color: white;
+    border-color: transparent;
+    border-radius: 7px;
+    background-color: #3897F1;
+    width: 400px;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color:gray
+}
+a:visited{
+    color:gray
+}
+a:hover{
+    color: #4682B4;
+    filter: opacity(50%);
+
+}
+.linhas{
+    padding-right: 500px;
+}
+.perfil{
+    position: relative;
+    padding-top: 20px;
+    left: 50px;
+    display: flex;
+}
+.foto{
+    position: relative;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px; 
+    padding: 4px;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.33, rgb(230, 146, 37)), color-stop(0.67, rgb(211, 67, 187)));
+   
+}
+.grade-foto{
+    position: absolute;
+    padding-left: 30px;
+    padding-top:30px;
+    float:left;
+
+}
+
+.nome-perfil{
+    display: flex;
+    padding-top: 50px;
+    letter-spacing: -1px;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 30px;
+    
+}
+.info-perfil{
+    display: flex;
+    padding-left: 30px;
+    padding-top: 5px;
+    letter-spacing: -2px;
+    font-size: 30px;
+    text-align: left;
+    
+}
+.botao{
+    font-family: p;
+    display: flex;
+    float: right;
+    font-size: 30px;
+    padding-top:20px;
+    padding-right: 320px;
+
+}
+.grade{
+    font-family: p;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    padding-top:70px;
+    padding-left: 300px;
+}
+.grade-info{
+    padding: 20px;
+}
+.grade article{
+    padding: 10px;
+}
+.grade p{
+    filter: opacity(70%);
+}
+.grade-post{
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+.grade-post img{
+    border-radius: 5px;
+    width: 32%;
+    filter:drop-shadow(0px 5px 10px black);
+
+}
+.grade-post img:hover{
+    filter: grayscale(20%);
+}
+.secret {
+    position:absolute;
+    float:right;
+    color: white;
+}
+.secret a:hover{
+    color: black;
+}
+.warning{
+    padding-top: 20px;
+}
+/* 
+Fontes licensiadas 
+*/
+
+@font-face {
+    font-family: p;
+    src: url(p.ttf);
+}
+@font-face {
+    font-family: pbold;
+    src: url(pBold.ttf);
+}
+@font-face {
+    font-family: instagram;
+    src: url(Instagram-font.ttf);
+}
+
